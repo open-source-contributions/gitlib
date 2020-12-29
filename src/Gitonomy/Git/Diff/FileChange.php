@@ -25,10 +25,10 @@ class FileChange
     protected $lines;
 
     /**
-     * @param int    $rangeOldStart
-     * @param int    $rangeOldCount
-     * @param int    $rangeNewStart
-     * @param int    $rangeNewCount
+     * @param int   $rangeOldStart
+     * @param int   $rangeOldCount
+     * @param int   $rangeNewStart
+     * @param int   $rangeNewCount
      * @param array $lines
      *
      * @return void
