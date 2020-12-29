@@ -25,11 +25,11 @@ class FileChange
     protected $lines;
 
     /**
-     * @param int      $rangeOldStart
-     * @param int      $rangeOldCount
-     * @param int      $rangeNewStart
-     * @param int      $rangeNewCount
-     * @param string[] $lines
+     * @param int    $rangeOldStart
+     * @param int    $rangeOldCount
+     * @param int    $rangeNewStart
+     * @param int    $rangeNewCount
+     * @param array $lines
      *
      * @return void
      */
@@ -90,7 +90,7 @@ class FileChange
     }
 
     /**
-     * @return string[]
+     * @return array
      */
     public function getLines()
     {
